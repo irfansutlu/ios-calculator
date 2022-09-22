@@ -24,6 +24,9 @@ body{
     height: 25%;
     border-radius: 2rem;
     margin-top: 1rem;
+    color: white;
+    padding: 3.5rem 2rem;
+    font-size: 2rem;
 }
 .main{
     display: grid;
@@ -42,6 +45,7 @@ body{
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(71, 71, 71);
+    transition: all 0.15s ease;
 }
 .content:hover{
     cursor: pointer;
@@ -57,4 +61,7 @@ body{
 }
 .sec-4 , .sec-8 , .sec-12 , .sec-16 , .sec-19{
     background-color: rgb(237, 169, 10);
+}
+.content:active{
+    transform: scale(1.1);
 }
