@@ -26,7 +26,9 @@ body{
     margin-top: 1rem;
     color: white;
     padding: 3.5rem 2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    overflow: hidden;
+    text-align: right;
 }
 .main{
     display: grid;
